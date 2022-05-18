@@ -24,6 +24,14 @@ nav a:hover {
     background-color: #93bc38;
     color: black;
 }
+nav {
+    text-align: center;
+    text-decoration: none;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+}
 .home-title {
     color: black;
     font-family: 'Nunito';
