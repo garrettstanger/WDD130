@@ -10,10 +10,10 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -98px;
-    width: 100%;
+    height: auto;
 }
 #hero-img {
-    width: 100%;
+    max-width: 100%;
 }
 #hero-msg {
     grid-column: 2/3;
