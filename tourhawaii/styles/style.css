@@ -35,6 +35,10 @@ nav a:hover {
     background-color: #68818D;
     color: white;
 }
+#home1_img {
+    width: 1200px;
+    height: 720px;
+}
 
 
 footer {
