@@ -155,7 +155,6 @@ footer {
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
-    align-items: left;
 }
 footer .social img {
     padding-top: 15px;
@@ -163,11 +162,10 @@ footer .social img {
 }
 footer h3 {
     color: white;
-    align-items: right;
     padding: 10px;
 }
 footer a {
-    color: none;
+    color: #07883B;
 }
 footer a:hover {
     text-decoration: none;
