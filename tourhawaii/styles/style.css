@@ -6,7 +6,7 @@ header {
     opacity: .95;
 }
 #content {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 35px;
 }
@@ -97,6 +97,7 @@ nav a:hover {
     grid-row: 3;
     font-family: 'Boogaloo', 'Permanent Marker';
     font-size: xx-large;
+    text-align: center;
     background-color: whitesmoke;
     line-height: 1.5em;
     padding: 35px;
@@ -109,6 +110,45 @@ nav a:hover {
     background-color: #EA1F4B;
     color: black;
 }
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 
 footer {
     background-color: #07883B;
@@ -135,4 +175,33 @@ footer a:hover {
 footer h3 a:hover {
     text-decoration: none;
 }
-
+/* Big Island Subpage */
+.big-island-grid {
+    display: grid;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    grid-template-columns: 50px 300px 200px 100px 200px 300px 50px;
+    grid-template-rows: 50px 300px 50px 300px 50px 300px 50px;
+}
+.big-island1 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.big-island2 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    font-family: 'Boogaloo', 'Permanent Marker';
+    font-size: x-large;
+}
+.big-island-text {
+    border: 15px #EA1F4B;
+}
+.big-island3 {
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+.big-island4 {
+    grid-column: 3/6;
+    grid-row: 6/7;
+}
