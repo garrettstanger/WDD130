@@ -208,6 +208,11 @@ footer h3 a:hover {
 .big-island1 {
     grid-column: 3/6;
     grid-row: 2/3;
+    
+}
+#bigIsland1 {
+    width: 500px;
+    height: 300px;
 }
 .big-island2 {
     grid-column: 2/4;
@@ -216,6 +221,10 @@ footer h3 a:hover {
     font-size: x-large;
     padding-bottom: 10px;
 }
+#bigIsland2 {
+    width: 500px;
+    height: 300px;
+}
 .big-island-text {
     border: 15px #EA1F4B;
 }
@@ -223,7 +232,12 @@ footer h3 a:hover {
     grid-column: 5/6;
     grid-row: 4/5;
 }
+#bigIsland3 {
+    width: 500px;
+    height: 300px;
+}
 .big-island4 {
     grid-column: 3/6;
     grid-row: 6/7;
+    
 }
