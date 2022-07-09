@@ -122,6 +122,9 @@ nav a:hover {
     background-color: #EA1F4B;
     color: black;
 }
+h1 {
+    font-family: 'Boogaloo', 'Permanent Marker';
+}
 .container {
     position: relative;
     width: 100%;
@@ -194,6 +197,11 @@ footer h3 a:hover {
     grid-template-columns: 50px 300px 200px 100px 200px 300px 50px;
     grid-template-rows: 50px 300px 50px 300px 50px 300px 50px;
 }
+.big-island-title {
+    font-family: 'Boogaloo', 'Permanent Marker';
+    font-size: 50px;
+    padding-top: 40px;
+}
 .big-island1 {
     grid-column: 3/6;
     grid-row: 2/3;
@@ -203,6 +211,7 @@ footer h3 a:hover {
     grid-row: 4/5;
     font-family: 'Boogaloo', 'Permanent Marker';
     font-size: x-large;
+    padding-bottom: 10px;
 }
 .big-island-text {
     border: 15px #EA1F4B;
